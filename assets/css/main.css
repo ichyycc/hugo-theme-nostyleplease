@@ -13,7 +13,8 @@
   }
 }
 
-html, body {
+html,
+body {
   background: white;
 }
 
@@ -45,7 +46,11 @@ article {
   flex-direction: column;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 3rem;
 }
 
@@ -60,15 +65,15 @@ p:not(.post-meta) {
   text-indent: 1em;
 }
 
-article > p:not(:last-child) {
+article>p:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-article > h1 {
+article>h1 {
   margin: 0;
 }
 
-article > h1 + * {
+article>h1+* {
   margin-top: 2rem !important;
 }
 
@@ -90,7 +95,7 @@ hr {
   border: 0;
 }
 
-article > * + hr {
+article>*+hr {
   margin-top: 1rem;
 }
 
@@ -106,7 +111,9 @@ table {
   width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
@@ -143,11 +150,11 @@ figure {
   margin: 4rem 0;
 }
 
-article > * + figure {
+article>*+figure {
   margin-top: 3rem;
 }
 
-figcaption > p {
+figcaption>p {
   margin-top: 0.5rem !important;
   text-align: center !important;
   opacity: 0.5;
@@ -172,7 +179,7 @@ a.backlink {
 }
 
 * {
-  font-family: '돋움체', 'Courier New', Courier, monospace;
+  font-family: 'Consolas', Courier, monospace;
 }
 
 *:target {
